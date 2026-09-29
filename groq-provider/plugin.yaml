@@ -1,0 +1,8 @@
+name: groq-provider
+kind: model-provider
+version: 1.0.0
+description: Groq as a Hermes model provider — reasoning effort goes out in the form each Groq model accepts, and the model list leaves out the models Hermes cannot run.
+author: AhmetArif0
+requires_hermes: ">=0.21.5"
+requires_env:
+  - GROQ_API_KEY
